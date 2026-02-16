@@ -1,4 +1,4 @@
-```gitignore
+```
 # Dependencies
 node_modules/
 
@@ -15,39 +15,17 @@ node_modules/
 .vscode/
 .idea/
 
-# Build artifacts
-dist/
-build/
-target/
-
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-env/
-venv/
-.venv/
-.venv-local/
 
-# Java
-*.class
-*.jar
-*.war
-*.ear
-*.nar
-target/
-.gradle/
+# Build outputs
+dist/
 build/
-
-# C/C++
 *.o
 *.obj
-*.so
-*.a
-*.dll
-*.exe
 *.out
 
 # Compression
@@ -69,8 +47,8 @@ build/
 *.Z
 *.lz
 *.lzo
-
-# System files
-.DS_Store
-Thumbs.db
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
