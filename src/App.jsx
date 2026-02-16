@@ -143,7 +143,7 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('new');
   const [concept, setConcept] = useState("");
   const [improvingConcept, setImprovingConcept] = useState(false);
-  const [aiApiKey, setAiApiKey] = useState("");
+  const [aiApiKey, setAiApiKey] = useState("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");
   const [showApiKeyModal, setShowApiKeyModal] = useState(false);
   const [baseGenre, setBaseGenre] = useState("Pop");
   const [prodStyle, setProdStyle] = useState("Radio-Ready");
